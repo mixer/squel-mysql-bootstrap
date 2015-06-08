@@ -1,0 +1,30 @@
+{
+  "name": "squel-mysql-bootstrap",
+  "version": "1.0.0",
+  "description": "Attach squel to a node-mysql connection, and promisify it!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MCProHosting/squel-mysql-bootstrap.git"
+  },
+  "keywords": [
+    "squel",
+    "mysql",
+    "bluebird",
+    "promise",
+    "bootstrap"
+  ],
+  "author": "Connor Peet <connor@peet.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCProHosting/squel-mysql-bootstrap/issues"
+  },
+  "homepage": "https://github.com/MCProHosting/squel-mysql-bootstrap",
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "squel": "^4.0.0"
+  }
+}
